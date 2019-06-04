@@ -4,7 +4,7 @@ import React from "react"
 import Nav from "../components/layout/Nav"
 import Hero from "../components/sections/Hero"
 
-// import Products from "../components/sections/Products"
+import Products from "../components/sections/Products"
 import Team from "../components/sections/Team"
 import Contact from "../components/sections/Contact"
 
@@ -17,7 +17,7 @@ const IndexPage = () => (
     <Nav />
     <Hero />
     <Team />
-    {/* <Products /> */}
+    <Products />
     <Contact />
   </div>
 )

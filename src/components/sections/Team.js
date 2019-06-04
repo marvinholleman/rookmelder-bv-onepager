@@ -5,9 +5,9 @@ import styled from "styled-components"
 import Header from "../layout/Header"
 import Section from "../layout/Section"
 
-// import guido from "../../images/guido.jpg"
+import india from "../../images/india.jpeg"
 import fabian from "../../images/fabian.jpeg"
-// import vincent from "../../images/vincent-jackson.png"
+import marvin from "../../images/marvin.jpeg"
 import jordey from "../../images/jordey.jpeg"
 
 const Team = () => {
@@ -75,6 +75,7 @@ const StyledTeam = styled(Section)`
         background-size: cover;
       }
       .Marvin {
+        background-image: url(${marvin});
       }
       .fabian {
         background-image: url(${fabian});
@@ -83,6 +84,7 @@ const StyledTeam = styled(Section)`
         background-image: url(${jordey});
       }
       .India {
+        background-image: url(${india});
       }
 
       h2,

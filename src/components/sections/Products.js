@@ -6,60 +6,38 @@ import Header from "../layout/Header"
 import Section from "../layout/Section"
 
 // Images
-import familyCar from "../../images/car.png"
-import workGuy from "../../images/traffic-light.png"
 
 const Products = () => {
   return (
     <>
-      <StyledProducts>
+      {/* <StyledProducts>
         <Wrap>
           <First>
             <Wrapper>
-              <Header>Products</Header>
-              <Intro>
-                Safe roads are the basis for a SafeCity. We use spacedata to
-                warn, inform and advise consumers as well as local authorities.
-              </Intro>
-              <Left>
-                1. An application made for consumers. In this sense of the word,
-                road users. In this concept we index Dutch roads and give them a
-                safety score. An example could be the difference in height,
-                which might be a puthole or wear and tear. Another index is the
-                amount of lights near the road. Road’s that aren’t well lit are
-                often seen in the same areas as traffic accidents - and even
-                deaths. We hope to make drivers aware of these roads and give
-                them a safe trip to their destination. In the future we might
-                have travel advice based on other factors like the weather.
-              </Left>
+              
+              <Intro />
+              <Left />
             </Wrapper>
-            <Right>
-              <img src={familyCar} alt="car" />
-            </Right>
+            <Right />
           </First>
         </Wrap>
-      </StyledProducts>
+      </StyledProducts> */}
 
       <Second>
         <StyledProductsAlt>
           <Wrap className="wrap">
             <Wrapper>
+              <Header>Insights</Header>
+              <br />
+              <br />
               <Left>
-                2. An application made for local authorities. Using the same
-                data but in a different way. This way the authorities can
-                anticapate problems on roads and other areas by checking the
-                space data we supply. This way we can highlight ‘problem’ areas.
-                Which makes it easier to send workers or other services to fix
-                or prevent the problems. By having an interactive map we make it
-                easier for the authorities to make decisions based on the
-                gravity of an area. In the future, drivers might be able to vote
-                on particular areas to raise concern. This way the community has
-                a vote and you have input from different sources.
+                Please find all our insights in our Miro board,
+                <a href="https://miro.com/app/board/o9J_kx6_50U=/">
+                  &nbsp;here
+                </a>
               </Left>
             </Wrapper>
-            <Right>
-              <img src={workGuy} alt="car" />
-            </Right>
+            <Right />
           </Wrap>
         </StyledProductsAlt>
       </Second>
@@ -115,13 +93,13 @@ const Intro = styled.div`
 `
 
 const Left = styled.div`
-  flex: 1;
+  /* flex: 1; */
   line-height: 20px;
   color: #284f70;
 `
 
 const Right = styled.div`
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   justify-content: center;
   align-items: center;
