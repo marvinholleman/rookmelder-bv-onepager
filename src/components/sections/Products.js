@@ -10,6 +10,8 @@ import bwcar2 from "../../images/bwcar2.png"
 
 import bs1 from "../../images/bs1.png"
 import bs2 from "../../images/bs2.png"
+import bs4 from "../../images/bs4.jpg"
+import bs5 from "../../images/bs5.jpg"
 
 import c1 from "../../images/c1.png"
 import c2 from "../../images/c2.jpg"
@@ -160,6 +162,84 @@ const Products = () => {
                 <br />
                 <br />
                 <Image src={c2} />
+                <br />
+                <br />
+                Aan het eind van week 5 hebben wij de presentatie gegeven aan de
+                brandweer. Uit hun feedback is gebleken dat concept 1, deels al
+                op deze manier wordt ontwikkeld door een samenwerkingsverband
+                van de brandweer met Flitsmeister. Het door-ontwikkelen van
+                concept 2, het toevoegen van een 3D functie aan de bestaande
+                tablet is daarbij een zeer interessant concept wat bij de
+                brandweer echt van toegevoegde waarde kan zijn. Wij hebben na de
+                presentaties nog een gesprek gehad met Maurice... Hierin hebben
+                wij een aantal vragen gesteld over wat hun procedure is en hoe
+                zij te werk gaan tijdens het bestrijden van een ongeval in een
+                appartement. Daar kwam uit dat zij de brandlift nemen naar de
+                juiste verdieping. Als er geen brandlift is dan nemen ze de
+                gewone lift en gaan ze naar de verdieping onder de verdieping
+                waar de brand plaats vindt. Ook kijken ze of er brandgangen
+                zijn, nooduitgangen, watertoevoer en naar droge stijgleidingen.
+                Allemaal waardevolle informatie die we kunnen gebruiken bij het
+                ontwerpen en bouwen van het eind product.
+                <br />
+                <br />
+                <Header>Create</Header>
+                <br />
+                Na de tussenpresentaties zijn wij volop bezig geweest om voor de
+                huidige brandweer app een 3D functie toe te voegen, die het
+                mogelijk maakt om via de tablet, gebouwen te voorzien van
+                nuttige informatie over waar de droge stijgleiding,
+                nooduitgangen, brandtrappen, brand liften, particuliere liften,
+                waterkranen, brandblussers, brandmelders, de brandhaspel en
+                materiaal voor brandbestrijding zich bevinden. Dit alles moet
+                ervoor zorgen dat de informatievoorziening na een brandmelding,
+                vlugger te vinden is en af te lezen, om zo een structureel beter
+                plan van aanpak te maken in een noodsituatie. Wij hebben ons
+                daarbij ook volledig gefocust op het bouwen en ontwikkelen van
+                een werkbaar prototype dat aansluit bij de app zoals die al
+                bestaat in zijn huidige vorm (qua layout). Dit moet het
+                prototype gebruiksvriendelijk maken voor brandweerlieden,
+                onderweg naar een noodgeval, zonder dat zij cursussen moeten
+                volgen hoe de (nieuwe) functie werkt. De interface moet daarbij
+                zo gebruiksvriendelijk en herkenbaar mogelijk zijn. Het mag geen
+                vragen oproepen, maar puur dienen als extra informatie
+                voorziening.
+                <br />
+                <br />
+                <Image src={bs4} />
+                <Image src={bs5} />
+                <br />
+                <br />
+                <h2>Doorontwikkeling</h2>
+                <br />
+                Het is natuurlijk onmogelijk om binnen 3 weken een volledig
+                werkend prototype te bouwen dat zo complex is als wij bedacht
+                hebben. Dit betekent overigens niet dat het geen waardevolle
+                toevoeging kan zijn voor het verder ontwikkelen van de navigatie
+                tablet bij de brandweer. Wij zijn erachter gekomen dat de
+                gemeente Rotterdam, heel de stad al heeft omgezet in 3D,
+                aangevuld met nuttige informatie over gebouwen, straten en zelfs
+                het elektriciteitsnetwerk staat er op.
+                <br />
+                <br />
+                <h2>Aanbeveling</h2>
+                <br />
+                <br />
+                Wij zouden de brandweer dan ook graag aanbevelen om in gesprek
+                te gaan met de gemeente Rotterdam om te overleggen wat de
+                mogelijkheden zijn van het implementeren van de Rotterdam 3D
+                web/app/functie in de bestaande brandweer app. Het maakt het
+                voor de brandweer mogelijk om brandsituaties in panden beter in
+                te schatten en zodoende, structureel een beter plan van aanpak
+                te bedenken in geval van een noodsituatie. Tevens stelt het
+                Basisregistratie Adressen en Gebouwen (BAG) van de Digitale
+                Overheid, al deze informatie beschikbaar aan instanties met een
+                publieke taak (zoals de brandweer).
+                <br />
+                <br />
+                <a href="https://docs.google.com/presentation/d/1Q08zQtWyDf95XXciFKbp39kl4dWZIl3Z2au6IOn33Es/edit?usp=sharing">
+                  Klik hier onze eindpresentatie
+                </a>
               </Left>
             </Wrapper>
             <Right />
